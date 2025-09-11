@@ -4,5 +4,5 @@ plugins {
 }
 
 micronautBuild {
-    binaryCompatibility.enabledAfter("1.0.0-SNAPSHOT")
+    binaryCompatibility.enabledAfter("1.0.0")
 }

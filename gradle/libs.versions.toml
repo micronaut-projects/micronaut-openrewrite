@@ -22,6 +22,7 @@ micronaut-test = "4.6.2"
 groovy = "4.0.24"
 spock = "2.3-groovy-4.0"
 rewrite-micronaut = "2.26.0"
+sonatype-scan = "3.1.1"
 
 # Managed versions appear in the BOM
 # managed-somelib = "1.0"
@@ -31,6 +32,7 @@ rewrite-micronaut = "2.26.0"
 # Core
 micronaut-core = { module = 'io.micronaut:micronaut-core-bom', version.ref = 'micronaut' }
 micronaut-rewrite = { module = 'org.openrewrite.recipe:rewrite-micronaut', version.ref = 'rewrite-micronaut' }
+sonatype-scan = { module = "org.sonatype.gradle.plugins:scan-gradle-plugin", version.ref = "sonatype-scan" }
 #
 # Managed dependencies appear in the BOM
 #
