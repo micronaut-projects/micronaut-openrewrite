@@ -1,0 +1,9 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: io.micronaut.openrewrite.update.micronaut.gradle.plugin.version
+displayName: Update Micronaut Gradle Plugins
+description: It updates Micronaut Gradle Plugins to the latest version
+recipeList:
+  - org.openrewrite.gradle.plugins.UpgradePluginVersion:
+      pluginIdPattern: io.micronaut.jsonschema
+      newVersion: 4.x

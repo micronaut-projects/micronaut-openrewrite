@@ -1,0 +1,10 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: io.micronaut.openrewrite.update.micronaut.platform.parent.pom.version
+displayName: Update Micronaut Platform parent POM version
+description: This recipe updates the Micronaut Platform parent POM version
+recipeList:
+  - org.openrewrite.maven.ChangeParentPom:
+      oldGroupId: io.micronaut.platform
+      oldArtifactId: micronaut-parent
+      newVersion: 4.x
