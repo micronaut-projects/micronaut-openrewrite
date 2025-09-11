@@ -1,0 +1,4 @@
+plugins {
+    id 'io.micronaut.build.internal.openrewrite-base'
+    id "io.micronaut.build.internal.module"
+}
