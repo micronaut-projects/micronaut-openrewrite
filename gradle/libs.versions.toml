@@ -21,6 +21,7 @@ micronaut-docs = "2.0.0"
 micronaut-test = "4.6.2"
 groovy = "4.0.24"
 spock = "2.3-groovy-4.0"
+rewrite-micronaut = "2.26.0"
 
 # Managed versions appear in the BOM
 # managed-somelib = "1.0"
@@ -29,7 +30,7 @@ spock = "2.3-groovy-4.0"
 [libraries]
 # Core
 micronaut-core = { module = 'io.micronaut:micronaut-core-bom', version.ref = 'micronaut' }
-
+micronaut-rewrite = { module = 'org.openrewrite.recipe:rewrite-micronaut', version.ref = 'rewrite-micronaut' }
 #
 # Managed dependencies appear in the BOM
 #

@@ -3,5 +3,5 @@ plugins {
 }
 
 dependencies {
-    api("org.openrewrite.recipe:rewrite-micronaut:2.26.0")
+    api(libs.micronaut.rewrite)
 }
