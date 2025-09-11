@@ -1,0 +1,9 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: io.micronaut.openrewrite.update.change-to-shadow
+displayName: Change com.github.johnrengelman.shadow Gradle plugin to com.gradleup.shadow
+recipeList:
+  - org.openrewrite.gradle.plugins.ChangePlugin:
+      pluginId: com.github.johnrengelman.shadow
+      newPluginId: com.gradleup.shadow
+      newVersion: 8.3.7
