@@ -9,10 +9,10 @@ plugins {
     id 'io.micronaut.build.shared.settings' version '7.6.4'
 }
 
-rootProject.name = 'project-template-parent'
+rootProject.name = 'micronaut-openrewrite-parent'
 
-include 'project-template'
-include 'project-template-bom'
+include 'micronaut-openrewrite'
+include 'micronaut-openrewrite-bom'
 
 enableFeaturePreview 'TYPESAFE_PROJECT_ACCESSORS'
 
