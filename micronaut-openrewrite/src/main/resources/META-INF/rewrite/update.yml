@@ -1,5 +1,5 @@
 type: specs.openrewrite.org/v1beta/recipe
-name: io.micronaut.openrewrite.upgrade
+name: io.micronaut.openrewrite.update
 displayName: OpenRewrite Recipe to upgrade Micronaut to latest 4.x version
 recipeList:
   - org.openrewrite.java.micronaut.Micronaut3to4Migration
