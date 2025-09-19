@@ -1,4 +1,3 @@
----
 type: specs.openrewrite.org/v1beta/recipe
 name: io.micronaut.openrewrite.update
 displayName: OpenRewrite Recipe to upgrade Micronaut to latest 4.x version
@@ -6,4 +5,7 @@ recipeList:
   - org.openrewrite.java.micronaut.Micronaut3to4Migration
   - io.micronaut.openrewrite.update.shadow.gradle.plugin.version
   - io.micronaut.openrewrite.update.micronaut.gradle.plugin.version
+  - io.micronaut.openrewrite.update.change-to-shadow
+  - io.micronaut.openrewrite.update.gradle.wrapper
+  - io.micronaut.openrewrite.update.maven.wrapper
   - io.micronaut.openrewrite.update.micronaut.platform.parent.pom.version

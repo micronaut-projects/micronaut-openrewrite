@@ -1,0 +1,8 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: io.micronaut.openrewrite.update.gradle.wrapper
+displayName: Update gradle wrapper version
+recipeList:
+  - org.openrewrite.gradle.UpdateGradleWrapper:
+      version: 8.14.2
+
+
