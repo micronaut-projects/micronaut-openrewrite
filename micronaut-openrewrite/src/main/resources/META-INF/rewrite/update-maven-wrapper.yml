@@ -4,3 +4,5 @@ displayName: Update maven wrapper version
 recipeList:
   - org.openrewrite.maven.UpdateMavenWrapper:
       wrapperVersion: 3.x
+      addIfMissing: false
+
