@@ -5,4 +5,3 @@ recipeList:
   - org.openrewrite.maven.UpdateMavenWrapper:
       wrapperVersion: 3.x
       addIfMissing: false
-
