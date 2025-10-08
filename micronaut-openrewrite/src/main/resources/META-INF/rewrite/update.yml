@@ -7,5 +7,6 @@ recipeList:
   - io.micronaut.openrewrite.update.micronaut.gradle.plugin.version
   - io.micronaut.openrewrite.update.change-to-shadow
   - io.micronaut.openrewrite.update.gradle.wrapper
+  - io.micronaut.openrewrite.AddJUnitPlatformLauncher
   - io.micronaut.openrewrite.update.maven.wrapper
   - io.micronaut.openrewrite.update.micronaut.platform.parent.pom.version
