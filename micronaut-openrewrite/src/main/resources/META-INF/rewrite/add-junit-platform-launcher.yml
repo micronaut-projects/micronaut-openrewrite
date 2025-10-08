@@ -1,0 +1,9 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: io.micronaut.openrewrite.AddJUnitPlatformLauncher
+displayName: Add JUnit Platform Launcher
+description: Add the JUnit Platform Launcher to the buildscript dependencies.
+recipeList:
+  - org.openrewrite.gradle.AddDependency:
+      groupId: org.junit.platform
+      artifactId: junit-platform-launcher
+      configuration: testRuntimeOnly
