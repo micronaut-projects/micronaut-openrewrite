@@ -21,7 +21,7 @@ micronaut-docs = "3.0.0"
 micronaut-test = "4.6.2"
 groovy = "4.0.24"
 spock = "2.3-groovy-4.0"
-rewrite-micronaut = "2.27.1"
+rewrite-micronaut = "2.30.0"
 
 # Managed versions appear in the BOM
 # managed-somelib = "1.0"
