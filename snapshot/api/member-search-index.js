@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"io.micronaut.openrewrite.info","c":"MicronautOpenrewriteModuleInfo","l":"MicronautOpenrewriteModuleInfo()","u":"%3Cinit%3E()"}];updateSearchResults();
