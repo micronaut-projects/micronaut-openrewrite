@@ -47,7 +47,7 @@ jobs:
           fetch-depth: 0
 
       - name: "🔧 Setup GraalVM CE"
-        uses: graalvm/setup-graalvm@790e28947b79a9c09c3391c0f18bf8d0f102ed69
+        uses: graalvm/setup-graalvm@9d0e2dff13a8c69a81d72a49c9816836f963fe01
         with:
           distribution: 'graalvm'
           java-version: ${{ matrix.java }}
