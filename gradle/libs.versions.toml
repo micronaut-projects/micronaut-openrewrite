@@ -16,7 +16,7 @@
 # a managed version (a version which alias starts with "managed-"
 
 [versions]
-micronaut = "5.0.0-M8"
+micronaut = "5.0.0-M9"
 
 rewrite-micronaut = "2.27.1"
 
