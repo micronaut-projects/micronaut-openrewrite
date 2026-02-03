@@ -108,7 +108,7 @@ jobs:
 
       - name: "📑 Publish to Github Pages"
         if: success() && github.event_name == 'push' && matrix.java == '21'
-        uses: micronaut-projects/github-pages-deploy-action@c10a202a82220a32680a06f5d5efff1cf26c4147
+        uses: micronaut-projects/github-pages-deploy-action@master
         env:
           TARGET_REPOSITORY: ${{ steps.docs_target.outputs.value }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
