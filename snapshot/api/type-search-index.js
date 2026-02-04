@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"io.micronaut.openrewrite.info","l":"MicronautOpenrewriteModuleInfo"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"io.micronaut.openrewrite.info","l":"MicronautOpenrewriteModuleInfo"}];updateSearchResults();
