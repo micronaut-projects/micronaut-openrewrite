@@ -18,7 +18,7 @@
 [versions]
 micronaut = "5.0.0-M10"
 
-rewrite-micronaut = "2.30.1"
+rewrite-micronaut = "2.31.2"
 
 # Managed versions appear in the BOM
 # managed-somelib = "1.0"
