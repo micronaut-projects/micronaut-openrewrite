@@ -1,6 +1,6 @@
 [versions]
-micronaut = "5.0.0"
-rewrite-micronaut = "2.33.6"
+micronaut = "5.1.7"
+rewrite-micronaut = "2.34.4"
 
 [libraries]
 micronaut-core = { module = 'io.micronaut:micronaut-core-bom', version.ref = 'micronaut' }
