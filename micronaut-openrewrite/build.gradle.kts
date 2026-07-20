@@ -1,5 +1,5 @@
 plugins {
-    id 'io.micronaut.build.internal.openrewrite-module'
+    id("io.micronaut.build.internal.openrewrite-module")
 }
 
 dependencies {
