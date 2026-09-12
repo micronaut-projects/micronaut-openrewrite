@@ -1,5 +1,5 @@
 [versions]
-micronaut = "5.2.0"
+micronaut = "5.2.1"
 micrometer = "1.16.7"
 rewrite-micronaut = "2.36.0"
 
