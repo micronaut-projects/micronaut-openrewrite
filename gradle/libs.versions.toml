@@ -1,6 +1,6 @@
 [versions]
 micronaut = "5.2.2"
-micrometer = "1.16.7"
+micrometer = "1.17.1"
 rewrite-micronaut = "2.36.0"
 
 [libraries]
